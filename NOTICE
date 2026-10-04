@@ -1,0 +1,14 @@
+claude-telegram-fleet
+Copyright 2026 the claude-telegram-fleet contributors
+
+This product is a modified version of claude-telegram-supercharged
+(https://github.com/k1p1l0/claude-telegram-supercharged), licensed under the
+Apache License, Version 2.0, which in turn derives from Anthropic's Telegram
+channel plugin for Claude Code, also licensed under the Apache License,
+Version 2.0.
+
+Modifications include per-bot state directories for running many bots from one
+install, a local message-history store, deterministic slash-command handling,
+inline-button layout changes, configurable host-script paths, and reliability
+fixes. Files carry a notice where they were changed. The full licence text is
+in telegram/LICENSE.

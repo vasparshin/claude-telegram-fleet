@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "telegram-supercharged",
+  "description": "Isolated supercharged Telegram channel (server features only — no headless daemon, no permission bypass).",
+  "owner": {
+    "name": "local",
+    "email": "noreply@localhost"
+  },
+  "plugins": [
+    {
+      "name": "telegram-sc",
+      "source": "./telegram",
+      "description": "Supercharged Telegram channel for Claude Code — voice, threading, history, telegraph. Server features only.",
+      "version": "0.3.0",
+      "author": {
+        "name": "k1p1l0"
+      },
+      "license": "Apache-2.0",
+      "keywords": ["telegram", "messaging", "channel", "mcp"],
+      "category": "productivity"
+    }
+  ]
+}

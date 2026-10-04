@@ -1,0 +1,32 @@
+# Dependencies — 113MB and reinstallable from the lockfile. Without this file a
+# `git add -A` in here commits all of it, which is the realistic accident: 4,263
+# untracked files sat next to 16 tracked ones with nothing standing between them.
+node_modules/
+telegram/node_modules/
+
+# Runtime state. None of it is the plugin; all of it is one person's account.
+# The message stores hold real chats verbatim, so these lines are the difference
+# between publishing a bridge and publishing a conversation.
+data/
+telegram/data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.jsonl
+
+# Credentials. Nothing here has ever been committed and nothing should start.
+.env
+.env.*
+*.pem
+*.key
+
+# Generated locally, names internal fleet state, of no use to anyone else.
+.upstream-report-latest.txt
+
+# Editor and OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/

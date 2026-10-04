@@ -1,0 +1,11 @@
+{
+  "name": "telegram-sc",
+  "description": "Telegram channel for Claude Code (supercharged) — voice, threading, message history, telegraph. Isolated copy of k1p1l0/claude-telegram-supercharged. Server features only: NO headless daemon, NO permission bypass. Manage pairing/allowlist via /telegram:access.",
+  "version": "0.3.2",
+  "keywords": [
+    "telegram",
+    "messaging",
+    "channel",
+    "mcp"
+  ]
+}
